@@ -119,6 +119,7 @@ Para abrir o app Streamlit:
 
 ```bash
 python -m streamlit run app/streamlit_app.py
+``` 
 
 ## Próximos passos
 
