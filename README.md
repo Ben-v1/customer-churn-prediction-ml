@@ -2,8 +2,6 @@
 
 Projeto de Ciência de Dados para prever clientes com maior probabilidade de churn, usando EDA, limpeza de dados, engenharia de atributos, comparação de modelos, explicabilidade com SHAP e recomendações de negócio.
 
-Este projeto foi construído com foco em portfólio para GitHub: o objetivo não é apenas treinar um modelo, mas mostrar uma análise ponta a ponta com raciocínio de negócio e cuidados de validação.
-
 ## Problema de negócio
 
 Churn representa perda de receita recorrente e aumento de custo de aquisição. A proposta é criar um modelo que ajude a priorizar clientes com maior risco de cancelamento para ações de retenção, como contato proativo, ofertas direcionadas e revisão de experiência.
@@ -104,7 +102,7 @@ Instale as dependências:
 pip install -r requirements.txt
 ```
 
-Coloque os CSVs em `data/raw/` e execute o notebook:
+Execute o notebook:
 
 ```bash
 jupyter notebook notebooks/customer_churn_prediction.ipynb
