@@ -1,0 +1,31 @@
+{
+    "champion_model": "XGBoost",
+    "target": "churn",
+    "id_column": "customerid",
+    "best_threshold_validation_f1": 0.15841792523860931,
+    "numeric_features": [
+        "age",
+        "tenure",
+        "usage_frequency",
+        "support_calls",
+        "payment_delay",
+        "total_spend",
+        "last_interaction",
+        "avg_spend_per_month",
+        "support_calls_per_month",
+        "payment_delay_rate",
+        "engagement_score",
+        "high_support_calls",
+        "long_payment_delay",
+        "low_usage",
+        "recently_inactive",
+        "month_to_month_contract"
+    ],
+    "categorical_features": [
+        "gender",
+        "subscription_type",
+        "contract_length"
+    ],
+    "created_by": "Brenno Gomes",
+    "notes": "Pipeline completo com preprocessamento e modelo. Monitorar drift antes de produção real."
+}

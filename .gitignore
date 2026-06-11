@@ -1,11 +1,5 @@
 # Dados locais
-/data/raw/*.csv
 /data/processed/*.csv
-
-# Modelos gerados
-/models/*.joblib
-/models/*.pkl
-/models/*.json
 
 # Python
 __pycache__/
